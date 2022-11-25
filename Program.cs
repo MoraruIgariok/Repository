@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TopShopStorege.Services;
+
+ClientManager a  = new ClientManager();
+a.Add_Client();
